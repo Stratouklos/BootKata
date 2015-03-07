@@ -1,0 +1,7 @@
+language: java
+
+install:
+  - TERM=dumb ./gradlew assemble
+
+script:
+  - TERM=dumb ./gradlew check
